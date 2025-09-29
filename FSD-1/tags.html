@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+    <style>
+
+        #flag{
+            display:block;
+            position:absolute;
+            right:20px;
+            border:5px solid rgb(0, 153, 255)
+
+        }
+        #mainheading{
+            color: red;
+            text-align: center;
+        }
+        #pointred{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="mainheading">HTML Tags Example</h1>
+    <pre>
+        use pre tag
+        display text
+    </pre>
+    <p>
+        use <mark>p</mark> tag <br>
+        to display text
+    </p>
+    <img src="images/Flag_of_India.jpeg"  id="flag" alt="You are not a desh bhakt" width="400px" height="auto">
+    <ol type="a" start="27">
+        <li>List 1</li>
+        <ul type="circle">
+            <li>list 1.1</li>
+            <li><mark>list 1.2</mark></li>
+            <ol type="I" reversed>
+                <li>list 1.2.3</li>
+                <li id="pointred">list 1.2.2</li>
+                <ol type="a">
+                    <li>list 1.2.2.1</li>
+                    <li>list 1.2.2.2</li>
+                    <li><del>list 1.2.2.3</del></li>
+                    <li><ins>list <sup>1.2.2.4</sup></ins></li>
+                </ol>
+                <li>1.2.1</li>
+            </ol>
+        </ul>
+        <li>List 2</li>
+        <ul type="none">
+            <li>list 2.1</li>
+            <li><strong>list 2.2</strong></li>
+            <ol type="A" start="26">
+                <li><a href="#" target="_blank">List 2.2.1</a>(Link must open in new tab)</li>
+                <li>2.2.2</li>
+            </ol>
+        </ul>
+        <li>List 3</li>
+        <ol>
+            <li>list 3.1</li>
+            <li><img src="images/channels4_profile.jpg" alt="image not load" width="40px" height="30"></li>
+        </ol>
+    </ol>
+</body>
+</html>

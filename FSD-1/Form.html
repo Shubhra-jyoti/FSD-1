@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/Flag_of_India.jpeg" >
+    <title>Registration form</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: blueviolet;">Diary registration page</h1>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Personal info</legend>
+            <label for="uname">User Name:</label>
+            <input type="text" id="uname" placeholder="UserName" minlength="4" maxlength="20" name="username" required autofocus/>
+            <br>
+            <br>
+            <label for="bdate">Select Birthdate:</label>
+            <input type="date" min="2006-07-19" max="2025-09-26" id="bdate"  name="bdate"/>
+            <br>
+            <br>
+            <label for="age">select age:</label>
+            <!--Input type=number used to take age height or weight-->
+            <input type="number" min="18" max="100" id="age" name="age" value="18" step="2"/>
+            <br>
+            <br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="password" placeholder="Enter password"/>
+            <br>
+            <br>
+            <label for="contact">Contact Number:</label>
+            <input type="tel" name="contact" id="contact" placeholder="Enter phone number">
+            <br>
+            <br>
+            <label for="eid">Email:</label>
+            <input type="email" placeholder="Enter Email" name="Email" id="eid"/>
+            <br>
+            <br>
+            <label for="Gender">Select Gender:</label>
+            <br>
+            <input type="Radio" name="Gender" id="Gender" value="Male" checked />Male
+            <br>
+            <input type="radio" name="Gender" id="Gender" value="Female">Female
+
+
+            
+
+        </fieldset>
+        <fieldset>
+            <legend>Additional info</legend>
+            <label for="State">Choose State</label>
+            <select name="State" id="State">
+                <option value="state" disabled selected>state</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+            </select>
+            <br>
+            <br>
+            <label for="br">Branch:</label>
+           <select name="Branch" id="br">
+                <option value="select" Hidden selected>Select</option>
+                <optgroup label="Computer">
+                    <option value="CSE">Computer Science</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="CE">Computer Engineering</option>
+                </optgroup>
+                <optgroup label="Other">
+                    <option value="Civil">Civil Engineering</option>
+                    <option value="Chemical">Chemical Engineering</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            
+            <label for="Hobbies">Hobbies</label>
+
+            <input type="checkbox" Value="Sports" name="Hobby"  id="Hobbies">Sports
+            <input type="checkbox" Value="eSports" name="Hobby">esports
+            <input type="checkbox" Value="Music" name="Hobby">Music
+
+
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Submit</legend>
+            <input type="submit" value="submit form">
+        </fieldset>
+    </form>
+</body>
+</html>
