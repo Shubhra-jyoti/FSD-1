@@ -1,0 +1,45 @@
+/* different types of selector 
+1)elements (p div)
+2)id(#)
+3)class(.)
+4)universal(*)
+5)attribute
+6) Descendent
+7)child
+8)grouping */
+
+h1{
+    color:purple;
+    font-size:60px;
+
+}
+p{
+    color:red;
+}
+#id1{
+    text-decoration: underline;
+    color:yellowgreen;
+    background-color: #000;
+}
+/* id selector has higher priority then elements */
+h2{
+    color: red;
+}
+.c1{
+    text-align: left;
+    background-color: pink;
+}
+p.c1{
+    text-decoration: underline;;
+    background-color: peru;
+}
+#id2{
+    color:green
+}
+h3.c2{
+    color:rgb(211, 144, 20);
+}
+.c1,.c2,h1{
+    color:black;
+    text-transform: uppercase;
+}

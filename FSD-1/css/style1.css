@@ -1,0 +1,11 @@
+h2{
+    color:blue;
+    background-color:green;
+    font-size:50px;
+    text-align: center;
+}
+p{
+    color:red !important;
+    text-align:right;
+}
+/* !important makes it ovverwruite even inline css */
