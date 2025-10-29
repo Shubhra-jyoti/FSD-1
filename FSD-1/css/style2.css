@@ -33,6 +33,7 @@ p.c1{
     text-decoration: underline;;
     background-color: peru;
 }
+/* element.class{} has higher prority then .class{} */
 #id2{
     color:green
 }

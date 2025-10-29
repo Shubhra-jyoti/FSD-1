@@ -1,0 +1,56 @@
+/* Text-properties */
+
+/* color:hex,rgb,name
+text-align:left/right/center/start/end;
+text-indent:px,%,em
+text-transform:none/capitalize/uppercase/lowecase
+text-decoration:underline/ovewline/line-through/none underline overline
+letter-spacing:px/em
+word-spacing:px/em/normal
+line-height:normal/em/px
+text-shadow :h-shadow v-shadow blur color */
+
+.underline{
+    text-decoration: underline;
+    color:purple;
+    text-align:left;
+    text-transform:capitalize;
+    text-indent:25px;
+    letter-spacing:5px;
+    word-spacing:6px;
+    text-shadow: 9px 5px 3px red;
+    line-height:20px;
+}
+.overline{
+    text-decoration: overline;
+    color:purple;
+    text-align:left;
+    text-transform:capitalize;
+    text-indent:60px;
+    letter-spacing:5px;
+    word-spacing:6px;
+    text-shadow: 1px 5px 1px red;
+
+}
+.linethrough{
+    text-decoration: line-through;
+    color:purple;
+    text-align:left;
+    text-transform:capitalize;
+    text-indent:60px;
+    letter-spacing:5px;
+    word-spacing:6px;
+    text-shadow: 1px 5px 1px red;
+
+}
+.combined{
+    text-decoration:underline overline;
+    color:purple;
+    text-align:left;
+    text-transform:capitalize;
+    text-indent:60px;
+    letter-spacing:5px;
+    word-spacing:6px;
+    text-shadow: 1px 5px 1px red;
+
+}

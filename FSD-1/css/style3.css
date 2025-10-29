@@ -1,0 +1,11 @@
+/* descendent gives the properties to all the descendent not just direct child */
+.d1 p{
+    color:red;
+    font-size:35px;
+
+}
+/* child  gives the properties to direct child only p which are directly inside d1 div */
+.d1>p{
+    color:purple;
+    text-align:center;
+}
