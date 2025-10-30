@@ -3,7 +3,7 @@
 /* color:hex,rgb,name
 text-align:left/right/center/start/end;
 text-indent:px,%,em
-text-transform:none/capitalize/uppercase/lowecase
+text-transform:none/capitalize/uppercase/lowercase
 text-decoration:underline/ovewline/line-through/none underline overline
 letter-spacing:px/em
 word-spacing:px/em/normal
@@ -52,5 +52,6 @@ text-shadow :h-shadow v-shadow blur color */
     letter-spacing:5px;
     word-spacing:6px;
     text-shadow: 1px 5px 1px red;
+
 
 }
