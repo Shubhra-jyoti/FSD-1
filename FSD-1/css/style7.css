@@ -1,0 +1,30 @@
+/* 
+font-properties
+font-family: "Ariel" sans-serif 
+font-size:px,em,rem,%,xx-small,x-small,small,medium,large,x-large xx-small,smaller,larger
+font-style:normal/italic
+font-weight:normal/bold/bolder/lighter/100 to 900
+font-varient:normal/small-caps*/
+h1{
+    font-family:copperplate,fantasy;
+    font-size:60px;
+    font-style:italic;
+    font-weight:900;
+    text-transform:capitalize;
+    font-variant:small-caps;
+}
+
+h3{
+    text-align:center;
+    border-color:red green blue pink;   /* for 2 args first top and bottom second right and left*/
+    border-width:7px 3px; /* for 3 top right bottom, left will take same as right*/
+    border-style:solid dashed double dotted; /* if 4 args are given then clockwise start from top*/
+}
+p{
+        /* border:3px solid red; */
+        border-left:3px solid green;
+        border-right:2px dashed red;
+        border-bottom:4px double blue;
+        border-top:5px dotted maroon; /*specific border locations*/
+
+}

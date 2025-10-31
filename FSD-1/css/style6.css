@@ -5,6 +5,8 @@ font-size:px,em,rem,%,xx-small,x-small,small,medium,large,x-large xx-small,small
 font-style:normal/italic
 font-weight:normal/bold/bolder/lighter/100 to 900
 font-varient:normal*/
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
 h1{
      font-family: "Bitcount Grid Single", system-ui;
 }
