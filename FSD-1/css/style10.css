@@ -1,0 +1,38 @@
+/* pseudo elements */
+/* first-line
+first-letter
+selection
+before
+after
+marker
+selector::pseudo-class */
+.p1::first-line{
+    color:blue;
+    font-size:20px;
+    font-style:italic;
+
+}
+.p1::first-letter{
+    color:red;
+    /* font-size:80px; */
+}
+.p1::selection{
+    background-color: aqua;
+    color:red
+}
+.p1::before{
+    content:url("../image/image.png");
+    /* display:inline-block;
+    width:80px;
+    height:1000px; */
+    
+}
+.p1::after{
+    content:"🤤😝" ;  /*win+.+;*/
+   
+}
+ul li::marker{
+    font-size:60px;
+    color:purple;
+    content:"💩"
+}

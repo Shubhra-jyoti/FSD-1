@@ -1,0 +1,30 @@
+/* flex box */
+.container{
+    display:flex;/*inline-flex: parent container takes width required to contain all the child flex just takes whole width of screen*/
+    background-color: grey;
+    padding: 15px;
+    height:500px;
+    /* flex-direction:column-reverse; */
+    gap:10px;
+    justify-content:center;
+
+    align-items:center;
+    flex-wrap:wrap;
+
+}
+.box{
+    background-color: navy;
+    color:white;
+    padding:20px;
+    border:3px solid red;
+    text-align: center;
+    width:200px;
+    border-radius: 30px;
+}
+/* change order of child elements high order will move toward right */
+/* .box:nth-child(3){
+    order:1;
+    background-color: yellow;
+    color:blue;
+    flex:1 1 100px;
+} */

@@ -1,0 +1,25 @@
+/* display:block/inline/inline-block/none */
+
+.d1 div{
+    display:inline-block;
+    padding:20px;
+    width:150px;
+    height:150px;
+    text-align:center;
+    margin:10px;
+    border:3px solid black;
+    font-style:italic;
+}
+.d1 div:nth-child(2){
+    display:none;
+}
+.d2 span{
+    display: block;
+    width:500px;
+    height:200px;
+    border:3px solid black;
+    margin:10px;
+    text-align:center;
+    font-size:20px;
+    border-radius: 30px;
+}
