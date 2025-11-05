@@ -1,0 +1,22 @@
+.g1{
+    display:grid;
+    grid-template-columns:200px 1fr 2fr;
+    grid-template-rows:1fr 2fr;
+    gap:10px;
+    background-color: gray;
+    padding:10px;
+    margin:10px;
+    height:150px;
+}
+.box,.item{
+    border:1px solid red;
+}
+
+.g2{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:100px;
+    height:150px;
+    gap:10px;
+    border:1px solid green;
+}

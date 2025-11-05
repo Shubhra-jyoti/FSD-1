@@ -9,7 +9,7 @@
     height:800px;
 }
 .box{
-    margin:0 10px;
+    /* margin:0 10px; */
     height:100px;
     width:100px;
     border:3px solid red;
@@ -20,5 +20,31 @@
     background-color: yellow;
     position:relative;
     top:100px;
-    left:100px;
+    left:200px;
+    z-index:1
+}
+#box3{
+    position:absolute;/* if the parent container is not relative irf moves with respect to viewport if no top/left etc. is given it doresn't occupy any space
+    */
+    top:0;
+    right:0;
+}
+#box4{
+    position:fixed;
+    bottom:100px;
+    right:50px;
+    background-color: yellow;
+    /* fixed to your display at certain position from bottom/top/left */
+}
+#box5{
+    position:sticky;
+    top:0px;
+    background-color: gray;
+}
+#box6{
+    position:relative;
+    left:150px;
+      background-color: yellow;
+    bottom:100px;
+    z-index:2
 }
