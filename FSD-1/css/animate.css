@@ -1,0 +1,29 @@
+/* @keyframes example
+animation_name:example ;
+animation-duration:5s
+animation-delay:2s;
+animation-iteration-count*
+animation-direction:normal/reverse/alternate/alternate-reverse
+*/
+.d1{
+    height:200px;
+    width:200px;
+    background-color:blue;
+    border-radius:50px;
+    margin:50px auto;
+    animation-name:example;
+    animation-duration:2s;
+    animation-delay:1s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-timing-function:ease-in;
+
+}
+@keyframes example{
+    0%{background-color: blue;}
+    20%{background-color: yellow; border-radius:70px;}
+    40%{background-color: chartreuse;}
+    60%{background-color: orange;}
+    80%{background-color:green;}
+    100%{background-color: red;}
+}

@@ -1,0 +1,67 @@
+/* transform 
+transform:function();
+translate(x,y)
+translatex(x)
+translatey
+rotate
+scale() -ve value for mirror image positive value for enlarging 
+scalex()
+scaley
+skew(x,y)
+skewx()
+skewy()*/
+
+/* transition properties
+transition-property:all/property/prop1,...prop2,...,propn default all
+transition-duration:5s/5000ms; default 0s
+transition-delay:2s/2000ms default 0
+transition-timing-function:ease/ease-in/ease-out/ease-in-out/linear 
+transition:property duration function delay*/
+.d1{
+    margin:100px auto;
+    width:150px;
+    height:150px;
+    border-radius:50px;
+    font-size:30px;
+    background-color: yellow;
+    text-align: center;
+    padding:20px;
+    /* transition-property:transform,background-color,border-radius; */
+    transition-property:all;
+    transition-duration:10s,5s,3s;
+    transition-delay:1.5s;
+    transition-timing-function:ease-in ;
+}
+#i1,#i2{
+     transition-property:all;
+    transition-duration:10s,5s,3s;
+    transition-delay:1.5s;
+    transition-timing-function:ease-in ;
+    height:200px;
+    width:200px;
+    display:block;
+    padding:20px;
+    margin:50px auto;
+    border:1px solid red;
+
+}
+.d1:hover{
+    /* transform:translate(50px,50px); */
+    /* transform:translate(50px,60px); */
+    /* transform:rotate(45deg) scale(2,1.5) skew(5deg,7deg); */
+    transform:rotate(900deg);
+    background-color: orange;
+    border-radius:100px;
+    border:8px solid violet;
+    box-shadow:0px 0px 10px red;
+}
+#i1:hover{
+    /* transform:scale(1.1); */
+    transform:skew(20deg,0deg);
+
+}
+#i2:hover{
+    /* transform: scale(-1);width,height */
+    /* transform:scaley(-1); */
+    transform:scale(10) skew(7000deg,7000deg) rotate(7000deg);
+}
