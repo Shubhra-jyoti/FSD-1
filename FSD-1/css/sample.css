@@ -1,0 +1,33 @@
+.container{
+    display:flex;
+    border:1px solid red;
+    position:relative;
+    flex-direction:row;
+
+}
+.links{
+    display:flex;
+    justify-content:flex-end;
+    gap:10px;
+    padding:20px;
+    width:40%;
+    order:-1;
+    border:1px solid green;
+    
+}
+.content{
+    border:1px solid blue;
+    width:60%;
+}
+a{
+    text-decoration: none;
+}
+@media (max-width:500px){
+    .container{
+        flex-direction:column;
+    }
+    .link,.content{
+        width:100%;
+    }
+    
+}

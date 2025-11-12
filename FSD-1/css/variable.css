@@ -1,0 +1,23 @@
+:root{
+    --text-red:red;
+    --p20:20px;
+    --all:dotted double dashed solid;
+    --textblue:blue;
+
+}
+h1{
+    --fs:50px;
+    font-size:var(--fs);
+    color:var(--text-red);
+
+}
+h2{
+    --textblue:lightblue;
+    color:var(--textblue);
+}
+p{
+    padding:var(--p20);
+    color:var(--textblue);
+    border-style:var(--all);
+    border-width:8px
+}

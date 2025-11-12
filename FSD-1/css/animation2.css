@@ -1,0 +1,36 @@
+.car{
+    width: 200px;
+    height:200px;
+    /* box-shadow:10px 10px 20px black; */
+    border-radius:10px;
+    animation-name:moveback;
+    animation-duration:10s;
+    animation-delay:-4s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    position:absolute;   
+
+}
+@keyframes moveback{
+    0%{
+        top:0;
+        left:0;
+    }
+    25%{
+        top:0;
+        left:90%;
+    }
+    50%{
+        top:65%;
+        left:90%
+    }
+    75%{
+        top:65%;
+        left:0;
+    }
+    100%{
+        top:0;
+        left:0;
+    }
+}

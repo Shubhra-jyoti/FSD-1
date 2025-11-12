@@ -1,0 +1,50 @@
+/* background-image:linear(direction,col1,col2)
+background-image:radial(shape,c1,c2,coln) 
+conic(deg,col1,col2)*/
+
+body{
+    background-image: linear-gradient(lightpink,lightblue,lightgreen);
+}
+.l1{
+    width:300px;
+    height:300px;
+    background:linear-gradient(to top right,black,red,green,yellow,pink);
+    border:3px solid black;
+}
+.l2{
+    width:80%;
+    height:100px;
+    text-align:center;
+    font-weight:900;
+    font-size:50px;
+    background:linear-gradient(to right,blue,green,orange,purple,yellow,pink);
+    background-clip: text;
+    color:transparent;
+}
+.r1{
+    width:300px;
+    height:200px;
+    background-image:radial-gradient(circle,blue 20%,green 30%,yellow 50%);
+}
+.c1{
+    width:200px;
+    height:200px;
+    background-image: conic-gradient(from 90deg,red 45deg,green 90deg,blue 180deg,purple 270deg,yellow 360deg);
+}
+.c2{
+    height:200px;
+    width:200px;
+     background-image:conic-gradient(red 0deg,red 90deg,blue 90deg,blue 180deg,yellow 180deg,yellow 270deg,green 270deg,green 360deg);    
+    border-radius:50%;
+    position:absolute;
+    bottom:0px;
+    left:40%;
+}
+@keyframes moveball{
+    0%{
+        background-image:conic-gradient(red 0deg,red 90deg,blue 90deg,blue 180deg,yellow 180deg,yellow 270deg,green 270deg,green 360deg);
+        bottom:0px;
+        left:40%;
+
+    }
+}
