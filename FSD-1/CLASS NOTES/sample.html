@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 mb-3">
+          <img src="manali.jpg" alt="manali" class="img-fluid rounded w-100" />
+        </div>
+        <div class="col-sm-6">
+          <img src="Goa.jpg" alt="goa" class="img-fluid rounded w-100" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="fs-1 text-danger text-center">Place1 Manali</p>
+        </div>
+        <div class="col-sm-6">
+          <p class="fs-1 text-danger text-center">Place2 Goa</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 ">
+          <button
+            class="btn btn-primary w-100"
+            data-bs-toggle="collapse"
+            data-bs-target="#goa"
+          >
+            Goa
+          </button>
+        </div>
+        <div id="goa">
+          Goa attracts a significant influx of both international and domestic
+          tourists annually due to its white-sand beaches, active nightlife,
+          religious landmarks, and UNESCO World Heritage-listed architecture. It
+          also boasts rich biodiversity, lying near the Western Ghats, a
+          biodiversity hotspot. The North Goa district draws more visitors owing
+          to its numerous restaurants, accommodation options, and a vibrant
+          nightlife. In contrast, South Goa is noted for its serene beaches and
+          luxury resorts, catering primarily to high-end tourists seeking
+          privacy and tranquility
+        </div>
+        <div class="col-sm-12">
+          <button
+            class="btn btn-primary w-100"
+            data-bs-toggle="collapse"
+            data-bs-target="#manali"
+          >
+            Manali
+          </button>
+          <div id="manali">
+            Manali is the beginning of an ancient trade route through Lahaul
+            (H.P.) and Ladakh, over the Karakoram Pass and onto Yarkand and
+            Hotan in the Tarim Basin of China. As per the 2011 Census of India,
+            the Manali Municipal Council had a population of 8,096, comprising
+            4,717 males and 3,379 females. Updated estimates suggest the town's
+            population is approximately 11,700 as of 2025. During the summer
+            2025 monsoon season, heavy rainfall triggered multiple landslides in
+            Mandi district, disrupting the Chandigarh Manali highway near 4
+            Mile, Pandoh, and the Thalot Tunnel. The route was blocked for up to
+            24 hours, stranding hundreds of vehicles and causing significant
+            travel delays. Statewide, over 400 roads were blocked; Mandi alone
+            reported 232 blocked roads and 71 in the Kullu district, including
+            Manali-bound routes. The disasters resulted in 137 deaths, with
+            severe damage to roads, water and power infrastructure. Due to the
+            narrow Himalayan terrain and recent landslides, traffic congestion
+            along the ChandigarhManali National Highway (NH21) has worsened
+            significantly. Even outside disaster periods, gridlock is common
+            during peak tourist season, leading to long delays and often only
+            one-way traffic management on affected stretches
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 mt-5">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Date Manali</button>
+                <ul class="dropdown-menu">
+                    <strong class="dropdown-header">Dec</strong>
+                    <li class="dropdown-item">15-25</li>
+                    <li class="dropdown-item">25-30</li>
+                    <div class="dropdown-divider"></div>
+                    <strong class="dropdown-header">Jan</strong>
+                    <li class="dropdown-item disabled">15-25</li>
+                    <li class="dropdown-item disabled">25-30</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 mt-5">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Date Goa</button>
+                <ul class="dropdown-menu">
+                    <strong class="dropdown-header">Dec</strong>
+                    <li class="dropdown-item">15-25</li>
+                    <li class="dropdown-item">25-30</li>
+                    <div class="dropdown-divider"></div>
+                    <strong class="dropdown-header">Jan</strong>
+                    <li class="dropdown-item disabled">15-25</li>
+                    <li class="dropdown-item disabled">25-30</li>
+                </ul>
+            </div>
+        </div>
+
+      </div>
+
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
