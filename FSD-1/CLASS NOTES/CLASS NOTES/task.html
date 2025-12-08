@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#mycanvas">Add To Cart</button>
+    <div class="offcanvas offcanvas-end" id="mycanvas">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">cart</h5>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanavs-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="../images/time.jfif" alt="time" class="img-fluid w-100">
+                </div>
+                <div class="col-sm-6">
+                    <span class="text-decoration-underline fs-4">Time</span><br>
+                    <span>500 rs</span><br>
+                    <button class="btn btn-primary">Remove</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
