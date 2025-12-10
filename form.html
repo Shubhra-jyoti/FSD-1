@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+   <div class="container bg-light p-5">
+    <form action="#" class="needs-validation" novalidate>
+        <div class="mb-3">
+            <label for="" class="form-label">username</label>
+            <input type="text" class="form-control" placeholder="username" required>
+        </div>
+         <div class="mb-3">
+            <label for="" class="form-label">username</label>
+            <input type="text" class="form-control" placeholder="username">
+        </div>
+        <div class=" row mb-2">
+            <label for="" class="col-sm-2 col-form-label" >
+                Email
+            </label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" placeholder="email id">
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <div class="form-floating">
+                    <input type="text" class="form-control" placeholder="firstname" disabled>
+                    <label for="" class="">First Name</label>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-floating">
+                    <input type="text" class="form-control" placeholder="lastname">
+                    <label for="" >Last Name</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control-plaintext" value="IN-001" readonly>
+            </div>
+            <div class="col">
+                <div class="form-floating">
+                    <select name="" id="" class="form-select">
+                        <option value="">select option</option>
+                        <option value="Abad">Ahmedabad</option>
+                        <option value="Rj">Rajkot</option>
+                        <option value="Rj">Surat</option>
+                    </select>
+                    <label for="">City</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <label for="" class="form-label">Hobbies</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="reading">
+                    <label for="" class="form-check-label">reading</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="dancing">
+                    <label for="" class="form-check-label">dancing</label>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <label for="" class="form-label">Gender</label>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="gender" class="form-check-input" value="male" >
+                    <label for="" class="form-check-label">male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="gender" class="form-check-input" value="female" >
+                    <label for="" class="form-check-label">female</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-check form-switch">
+                    <input type="checkbox" class="form-check-input" value="reading">
+                    <label for="" class="form-check-label">reading</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input type="checkbox" class="form-check-input" value="dancing">
+                    <label for="" class="form-check-label">dancing</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <label for="" class="form-label">Feedback</label>
+                <div class="d-flex justify-content-between my-2">
+                    <span>poor</span>
+                    <span>Average</span>
+                    <span>Good</span>
+                    <span>Very good</span>
+                    <span>Excellent</span>
+                </div>
+                <input type="range" class="form-range" min="1" max="5" step="1">
+            </div>
+            <div class="col-sm-6">
+                <div class="form-floating">
+                    <textarea name="" id="" placeholder="" class="form-control" style="height:80px"></textarea>
+                    <label for="">comments</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="input-group">
+                    <span class="input-group-text">Rs</span>
+                    <input type="text" class="form-control" placeholder="Amount">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="email">
+                    <span class="input-group-text">@</span>
+                     <input type="text" class="form-control" placeholder="domain">
+                </div>
+
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
