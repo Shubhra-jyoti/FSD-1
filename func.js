@@ -70,4 +70,15 @@ function abc3(x,y,...z){//rest operator will give array of remaining parameters
     console.log("z after spread operator: "+z);
 
 }
-abc3(1,2,3,4,5,6,7,8,9);
+abc3(1,2,3,4,5,6,7,8,9); 
+const arr=(x,y,...b)=>{ // here first two values will be passed to x and y and rest will be passed  to b and stored as an array
+    console.log("x: "+x);
+    console.log("y: "+y);
+    console.log("b: "+b);
+
+}
+arr(10,20,30,40,50,60);
+
+z1=20 // we are trying to like change the value of z1 which is not declared using var ,let or const so it becomes a global variable
+// if we now use let z1=30 it will give error as we are trying to redeclare the variable
+console.log("z1: "+z1);
