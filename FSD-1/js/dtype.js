@@ -1,7 +1,7 @@
 var a=10
 var b="abc"
 var c=true
-var d; //undefined value is not defined
+var d; //undefined  meaning value is not defined
 var e=null;
 // immutable cannot change above
 var x=5
